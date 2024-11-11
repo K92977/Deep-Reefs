@@ -1,0 +1,8 @@
+@use "utils" as *;
+@use "global" as *;
+
+.indexhome {
+  &.cardText {
+    text-shadow: 0 4px 4px rgb(0 0 0 / 100%);
+  }
+}

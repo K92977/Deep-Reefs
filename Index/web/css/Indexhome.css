@@ -1,0 +1,7 @@
+:root {
+  --fallback-font-stack: Helvetica, Arial, serif;
+}
+
+.indexhome.cardText {
+  text-shadow: 0 4px 4px black;
+}
