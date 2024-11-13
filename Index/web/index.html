@@ -38,6 +38,7 @@
                                 <div class="flex w-full flex-col bg-[rgb(217,217,217)]"><a class="my-1 mx-[23px] flex h-[15px] w-8 max-w-[85%] justify-center text-center font-Inter text-[12px] font-normal leading-tight text-white xs:my-1 xs:mx-4 tn:my-1 tn:mx-2">home</a></div>
                             </div>
                             <div class="flex w-[88px] min-w-0 flex-col opacity-[0.05]">
+				<div class="cursor-pointer" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });">
                                 <div class="flex w-full flex-col bg-[rgb(217,217,217)]"><a class="my-1 mx-[27.5px] flex h-[15px] w-[33px] max-w-[85%] justify-center text-center font-Inter text-[12px] font-normal leading-tight text-white xs:my-1 xs:mx-4 tn:my-1 tn:mx-2">about</a></div>
                             </div>
                             <div class="flex w-[114px] min-w-0 flex-col opacity-[0.05]">
@@ -99,12 +100,12 @@
                 </article>
 				</a>
             </div>
-            <div class="mx-auto mt-36 flex w-full max-w-[1280px] flex-col bg-[rgb(0,135,135)] xs:mx-auto xs:mt-20 xs:mb-0 tn:mx-auto tn:mt-[50px] tn:mb-0">
+            <div id="about" class="mx-auto mt-36 flex w-full max-w-[1280px] flex-col bg-[rgb(0,135,135)] xs:mx-auto xs:mt-20 xs:mb-0 tn:mx-auto tn:mt-[50px] tn:mb-0">
                 <!-- Bottom section with contact and copyright information -->
                 <div class="mx-10 mt-[17px] mb-11 flex gap-x-[17px] md:mx-8 md:mt-[17px] md:mb-11 md:flex-col md:items-center md:gap-y-[30px] xs:mx-4 xs:mt-[17px] xs:mb-11 tn:mx-2 tn:mt-[17px] tn:mb-11">
                     <article class="z-[1] flex w-[663px] min-w-0 flex-col md:w-full md:min-w-[unset]">
                         <p class="font-Montserrat flex items-center text-[60px] font-normal leading-[1.21] text-[rgb(191,245,255)] md:text-[52px] xxs:text-[36px]">Deep Reefs</p>
-                        <p class="font-Montserrat mr-[3px] flex items-center text-[14px] font-normal leading-[1.21] text-[rgb(191,245,255)]">Deep Reefs is a website that provides information about coral reefs. This website was created as part of an Informatics project for SMA Santa Maria 1 Bandung.</p>
+                        <p class="font-Montserrat mr-[3px] flex items-center text-[14px] font-normal leading-[1.21] text-[rgb(191,245,255)]">Deep Reefs is a website that provides information about coral reefs.  This website shares information about coral reefs around the world. It explains why coral reefs are important, the different types of reefs, and the dangers they face, like climate change and pollution. The website was created as part of an Informatics project for SMA Santa Maria 1 Bandung. Its goal is to help people understand and care more about coral reefs, encouraging them to protect these amazing ecosystems.</p>
                         <article class="mt-[92px] flex items-center xs:mx-0 xs:mt-20 xs:mb-0 tn:mx-0 tn:mt-[50px] tn:mb-0">
                             <span class="font-Montserrat text-[14px] font-bold leading-[1.21] text-[rgb(191,245,255)]">
                   <span class="font-bold">
